@@ -1,0 +1,8 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.edu.vpt.smartambulance">
+
+    <application>
+        <activity android:name="in.edu.vpt.smartambulance.SplashScreenVideo" android:theme="@style/Theme.Design.NoActionBar"></activity>
+    </application>
+</manifest>

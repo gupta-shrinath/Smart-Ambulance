@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".IntroActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="42dp"
+        android:layout_alignParentLeft="true"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dots"
+        android:layout_width="47dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:textColor="#FFFF"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Next"
+        android:textSize="17sp"
+        app:fontFamily="sans-serif-condensed" />
+
+    <Button
+        android:id="@+id/prevBtn"
+        android:textColor="#FFFF"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Back"
+        android:textSize="17sp"
+        android:visibility="invisible"
+        app:fontFamily="sans-serif-condensed" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverProfileActivity">
+
+    <ImageView
+        android:id="@+id/ic_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/ic_user"
+        android:layout_marginTop="165dp"/>
+    <ImageView
+        android:id="@+id/ic_hospital"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_hospital"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ic_user"
+        />
+
+    <TextView
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text1"
+        android:layout_toRightOf="@+id/ic_hospital"
+        android:layout_marginTop="50dp"/>
+    <ImageView
+        android:id="@+id/ic_car"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ic_hospital"
+        android:src="@drawable/ic_mail_id"/>
+
+    <TextView
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text2"
+        android:layout_toRightOf="@+id/ic_car"
+        android:layout_marginTop="50dp"/>
+    <ImageView
+        android:id="@+id/ic_mobile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_mobile"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ic_car"/>
+
+    <TextView
+
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ic_mobile" />
+
+
+</RelativeLayout>

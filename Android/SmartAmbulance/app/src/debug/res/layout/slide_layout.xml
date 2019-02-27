@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/slide_images"
+        android:layout_width="210dp"
+        android:layout_height="192dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        app:srcCompat="@drawable/mapf" />
+
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300sp"
+        android:text="@string/monitor"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-condensed" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="340dp"
+        android:layout_height="136dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:paddingTop="50sp"
+        android:text="@string/monitordes"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed" />
+</RelativeLayout>

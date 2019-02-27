@@ -1,0 +1,103 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+   >
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:text="@string/lo"
+        android:textAllCaps="false"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#B42013"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="279dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_user"
+        android:layout_below="@+id/spinner"
+        android:hint="@string/txt_pho"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:maxLines="1"/>
+
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="279dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/edittext_background"
+            android:drawableStart="@drawable/ic_password"
+            android:hint="@string/pass"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:layout_below="@+id/user_name"
+            android:layout_marginTop="15dp"
+            />
+
+
+    <TextView
+        android:id="@+id/txt_forpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/password"
+        android:textColor="#B42013"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/Password"
+        android:layout_below="@+id/Password"/>
+
+    <Button
+
+        android:id="@+id/login_bn"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_main_background"
+        android:backgroundTint="@color/maincolor"
+        android:layout_below="@+id/txt_forpass"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/lo"
+        android:textColor="#fff"/>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView6"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/showpass"
+        android:textColor="#B42013"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/Password"
+        android:layout_below="@+id/Password"
+         />
+
+</RelativeLayout>

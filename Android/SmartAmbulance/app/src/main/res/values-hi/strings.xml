@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Smart Ambulance</string>
+    <string name="title_activity_maps">नक्शा</string>
+    <string name="SAT">उपग्रह</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="register">रजिस्टर प्रपत्र</string>
+    <string name="logintxt">पहले से पंजीकृत ? | लॉग इन करें</string>
+    <string name="bn_register">रजिस्टर</string>
+    <string name="txt_password">पासवर्ड</string>
+    <string name="txt_uname">आधार कार्ड संख्या</string>
+    <string name="txt_pho"> मोबाइल नंबर </string>
+    <string name="invaildmobile">अमान्य मोबाइल नंबर</string>
+    <string name="txt_veh"> वाहन संख्या</string>
+    <string name="txt_address">अस्पताल का नाम</string>
+    <string name="txt_name"> नाम</string>
+
+
+    <string name="txt_register">नई उपयोगकर्ता | अभी पंजीकरण करें</string>
+    <string name="lo">लॉग-इन</string>
+    <string name="password">पासवर्ड भूल गए?</string>
+    <string name="pass"> पासवर्ड </string>
+    <string name="uname">उपयोगकर्ता नाम</string>
+    <string name="login">लॉगइन फॉर्म</string>
+
+
+    <string name="lang">Choose Language</string>
+    <string name="hi">हिंदी</string>
+    <string name="mr">मराठी</string>
+    <string name="en">English</string>
+    <string name="sub">Submit</string>
+    <string name="verification_code_subtext" translatable="false">कृपया भेजे गए ओटीपी कोड को टाइप करें</string>
+    <string name="verification_code" translatable="false">ओटीपी कोड</string>
+
+
+    <string name="showpass">पासवर्ड दिखाएं</string>
+
+    <string name="selectuser">Select User Type</string>
+    <string name="alertuser">उपयोगकर्ता प्रकार का चयन करें</string>
+    <string name="doc">चिकित्सक</string>
+    <string name="driver">चालक</string>
+    <string name="invalid">अमान्य तथ्य</string>
+    <string name="emergen">आपातकालीन</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="logout">लोग आउट</string>
+    <string name="enternewpass">नया पासवर्ड दर्ज करें</string>
+    <string name="lenofpass">पासवर्ड की लंबाई 8 वर्ण होनी चाहिए</string>
+    <string name="next">आगे बढ़ें</string>
+    <string name="searchhosp">अस्पताल के लिए खोजें</string>
+    <string name="pressback">बाहर निकलने के लिए फिर से दबाएं</string>
+    <string name="field">फील्ड खाली नहीं हो सकता</string>
+    <string name="permission">अनुमति की जरूरत</string>
+    <string name="sendotp">ओटीपी भेज रहा है ...</string>
+    <string name="failotp">ओटीपी भेजने में विफल !!</string>
+
+    <string name="namepatient">रोगी का नाम दर्ज करें</string>
+    <string name="agepatient">रोगी आयु दर्ज करें</string>
+    <string name="conpatient">आपातकालीन स्थिति दर्ज करें </string>
+    <string name="perdetail">यह अनुमति की जरूरत है क्योंकि ऐप को अपडेट रखने के लिए</string>
+    <string name="ok">ठीक</string>
+    <string name="cancel">रद्द</string>
+    <string name="wait">कृपया प्रतीक्षा करें</string>
+    <string name="faillog">लॉगिन विफल !</string>
+    <string name="invalidlo">अमान्य मोबाइल नंबर या पासवर्ड	</string>
+    <string name="noti">अधिसूचना</string>
+    <string name="error">त्रुटि</string>
+    <string name="success">सफलता</string>
+    <string name="resetpas">पासवर्ड रीसेट सफलतापूर्वक</string>
+    <string name="faresetpa">पासवर्ड रीसेट विफल!</string>
+    <string name="enterpho">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="verphone">अपने फ़ोन नंबर के साथ अपने खाते को सत्यापित करने के लिए अगला टैप करें। यदि इस फ़ोन में नंबर स्थापित है, तो आपको सत्यापन कोड दर्ज करने की आवश्यकता नहीं है ...</string>
+    <string name="validate">मान्य करें</string>
+
+    <string name="failnotifi">प्रेषण सूचना विफल पुन: प्रयास करें	</string>
+
+    <string name="monitor">निगरानी आपातकालीन</string>
+    <string name="monitordes">सक्रिय आपातकालीन मामले की लाइव ट्रैकिंग</string>
+    <string name="notifi">सूचित किया गया</string>
+    <string name="notifides">वास्तविक समय अधिसूचना और चेतावनी पीढ़ी</string>
+    <string name="google">Google निर्देश API द्वारे समर्थित	</string>
+    <string name="googledes">हुशार मार्ग जलद तेथे मिळवा	</string>
+
+
+</resources>

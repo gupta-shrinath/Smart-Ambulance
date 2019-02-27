@@ -1,0 +1,371 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="themify-icons.css">
+    <link rel="stylesheet" href="flag-icon.min.css">
+    <link rel="stylesheet" href="cs-skin-elastic.css">
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
+    <link rel="stylesheet" href="style.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" type="text/css" href="developer.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+
+
+<body>
+ <div class="card-body">
+
+                        <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" onclick ="smallmodal"data-target="#smallmodal">
+                          Small
+                      </button>
+
+                      <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#mediumModal">
+                          Medium
+                      </button>
+                      <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#largeModal">
+                          Large
+                      </button>
+                      <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#scrollmodal">
+                          Scrolling
+                      </button>
+                      <button type="button" class="btn btn-secondary mb-1" data-toggle="modal" data-target="#staticModal">
+                          Static
+                      </button>
+
+                    </div>
+
+ <div class="modal fade" id="smallmodal" tabindex="-1" role="dialog" aria-labelledby="smallmodalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="smallmodalLabel">Small Modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button onclick="location.href='index.php';" type="button" class="btn btn-primary">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="mediumModalLabel">Medium Modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="largeModalLabel">Large Modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="scrollmodal" tabindex="-1" role="dialog" aria-labelledby="scrollmodalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="scrollmodalLabel">Scrolling Long Content Modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade" id="staticModal" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel" aria-hidden="true" data-backdrop="static">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticModalLabel">Static Modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                   This is a static modal, backdrop click will not close it.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+<!-- Team -->
+<section id="team" class="pb-5" >
+    <div class="container" >
+        <h5 class="section-title h1">OUR TEAM</h5>
+        <div class="row" >
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4" >
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');" >
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="prasad_koyande.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Prasad Koyande</h4>
+                                    <p class="card-text">FULL STACK DEVELOPER</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Prasad Koyande</h4>
+                                    <p class="card-text">Professer at Vidyalankar Polytechic</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/prasad.j.koyande">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+										  <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/prasadkoyande19?lang=en">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="http://prasadkoyande.in/">
+                                                <i class="fa fa-external-link"></i>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="gupta_shrinath.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Shrinath Gupta</h4>
+                                    <p class="card-text">WEB DEVELOPER / ANDROID DEVELOPER</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Shrinath Gupta</h4>
+                                    <p class="card-text">Student at Vidyalankar Polytechic</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/shrinath.gupta.940">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/gupta_shrinath?lang=en">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="ayush_sawant.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Ayush Sawant</h4>
+                                    <p class="card-text">GRAPHIC DESIGNER / SOFTWARE TESTER</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Ayush Sawant</h4>
+                                    <p class="card-text">Student at Vidyalankar Polytechic </p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/ayush.patil.798278">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://twitter.com/Hulkayush17?lang=en">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="marzook_khatri.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Marzook Khatri</h4>
+                                    <p class="card-text">SOFTWARE QUALITY ANALYST</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Marzook Khatri</h4>
+                                    <p class="card-text">Student at Vidyalankar Polytechic</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/marzook.khatri">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://plus.google.com/103162340931439241021">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="rupesh_vanneldas.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Rupesh Vanneldas</h4>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Rupesh Vanneldas</h4>
+                                    <p class="card-text">Student at Vidyalankar Polytechic</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://www.facebook.com/rupesh.vanneldas">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank" href="https://plus.google.com/108193777791013637982">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+
+        </div>
+    </div>
+</section>
+<!-- Team -->
+</body>
+
+
+
+
+
+    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</html>

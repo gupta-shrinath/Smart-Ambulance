@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Smart Ambulance</string>
+    <string name="title_activity_maps">नकाशा</string>
+    <string name="SAT">उपग्रह</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="register">फॉर्म नोंदणी</string>
+    <string name="logintxt">आधीच नोंदणी झाली आहे ? | लॉग इन करा</string>
+    <string name="bn_register">नोंदणी</string>
+    <string name="txt_password">पासवर्ड</string>
+    <string name="txt_uname">आधार कार्ड क्रमांक</string>
+    <string name="txt_pho"> मोबाइल क्रमांक</string>
+    <string name="invaildmobile">नाही वैध मोबाइल क्रमांक</string>
+    <string name="txt_veh"> वाहन क्रमांक</string>
+    <string name="txt_address">हॉस्पिटल नाव</string>
+    <string name="txt_name"> नाव</string>
+
+
+    <string name="txt_register">नवीन वापरकर्ता | अाता नोंदणी करां</string>
+    <string name="lo">लॉग-इन</string>
+    <string name="password">पासवर्ड विसरला?</string>
+    <string name="pass"> पासवर्ड </string>
+    <string name="uname">वापरकर्ता नाव</string>
+    <string name="login">लॉगइन </string>
+    <string name="sendotp">ओटीपी पाठवत आहे ..</string>
+    <string name="failotp">ओटीपी पाठविणे अयशस्वी !!</string>
+
+    <string name="lang">Choose Language</string>
+    <string name="hi">हिंदी</string>
+    <string name="mr">मराठी</string>
+    <string name="en">English</string>
+    <string name="sub">Submit</string>
+    <string name="verification_code_subtext" translatable="false">कृपया पाठविलेले ओटीपी कोड टाइप करा</string>
+    <string name="verification_code" translatable="false">ओटीपी कोड</string>
+    
+    <string name="showpass">पासवर्ड दाखवा</string>
+
+    <string name="selectuser">Select User Type</string>
+    <string name="alertuser">वापरकर्ता प्रकार निवडा</string>
+    <string name="doc">डॉक्टर</string>
+    <string name="driver">चालक</string>
+    <string name="invalid">अवैध डेटा</string>
+    <string name="emergen">आणीबाणी</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="logout">लोग आउट</string>
+    <string name="enternewpass">नवीन पासवर्ड प्रविष्ट करा</string>
+    <string name="lenofpass">पासवर्डची लांबी 8 अक्षरे असावी</string>
+    <string name="next">पुढे</string>
+    <string name="searchhosp">हॉस्पिटलसाठी शोधा</string>
+    <string name="pressback">बाहेर पडण्यासाठी पुन्हा  दाबा</string>
+    <string name="field">हे फील्ड रिक्त असू शकत नाही	</string>
+
+
+
+
+    <string name="namepatient">रुग्ण नाव प्रविष्ट करा</string>
+    <string name="agepatient">रोगी आयु दर्ज करें</string>
+    <string name="conpatient">आपत्कालीन स्थिती प्रविष्ट करा </string>
+    <string name="permission">परवानगी आवश्यक आहे	</string>
+    <string name="perdetail">ही परवानगी अॅपला अद्ययावत ठेवणे कारण आवश्यक आहे</string>
+    <string name="ok">ठीक आहे</string>
+    <string name="cancel">रद्द</string>
+    <string name="wait">कृपया थांबा</string>
+    <string name="faillog">लॉग इन अयशस्वी!</string>
+    <string name="invalidlo">अवैध मोबाइल क्रमांक किंवा पासवर्ड	</string>
+    <string name="noti">अधिसूचना</string>
+    <string name="error">त्रुटी</string>
+    <string name="success">यश</string>
+    <string name="resetpas">पासवर्ड रीसेट यशस्वीपणे</string>
+    <string name="faresetpa">पासवर्ड रीसेट अयशस्वी!</string>
+    <string name="enterpho">तुमचा मोबाइल क्रमांक टाका</string>
+    <string name="verphone">आपल्या फोन नंबरसह आपले खाते सत्यापित करण्यासाठी पुढील टॅप करा. या फोनमध्ये नंबर स्थापित केल्यास आपल्याला सत्यापन कोड प्रविष्ट करणे आवश्यक नाही ...</string>
+    <string name="validate">मान्य करा</string>
+    <string name="failnotifi">प्रषित सूचना अयशस्वी कृपया पुन्हा प्रयत्न करा		</string>
+
+
+
+    <string name="monitor">देखरेख आणीबाणी</string>
+    <string name="monitordes">थेट ट्रॅकिंग सक्रिय आणीबाणी प्रकरणात</string>
+    <string name="notifi">सूचित व्हा</string>
+    <string name="notifides">वास्तविक वेळ सूचना आणि इशारा पिढी	</string>
+    <string name="google">गूगल दिशा API द्वारा संचालित</string>
+    <string name="googledes">वहां जल्द होशियार मार्गों के साथ जाओ	</string>
+
+
+
+
+</resources>

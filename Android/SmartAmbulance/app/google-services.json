@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "397775426138",
+    "firebase_url": "https://mumbai-ambulance-214612.firebaseio.com",
+    "project_id": "mumbai-ambulance-214612",
+    "storage_bucket": "mumbai-ambulance-214612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397775426138:android:4be0a5efd5f0c8df",
+        "android_client_info": {
+          "package_name": "in.edu.vpt.smartambulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397775426138-ckal31n2282skqcktqjfne2noivjg0e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeti6s9bc8_145PHZNFMAUtvlW-jiGQMo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

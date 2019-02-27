@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverProfileActivity">
+
+    <ImageView
+        android:id="@+id/ic_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ic_user" />
+    <ImageView
+        android:id="@+id/ic_hospital"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_hospital"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ic_user"
+        />
+
+    <TextView
+
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ic_hospital" />
+    <ImageView
+        android:id="@+id/ic_car"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ic_hospital"
+        android:src="@drawable/ic_car"/>
+
+    <TextView
+
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ic_car" />
+    <ImageView
+        android:id="@+id/ic_mobile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_mobile"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ic_vehicle"/>
+
+    <TextView
+
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ic_mobile" />
+
+    <ImageView
+        android:id="@+id/ic_aadhar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ic_mobile"
+        android:src="@drawable/ic_vehicle"/>
+
+    <TextView
+
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text4"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ic_aadhar" />
+
+    <ImageView
+
+        android:id="@+id/ic_vehicle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/ic_car"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_aadhar"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text5"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/ic_aadhar" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Smart Ambulance</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="SAT">Satellite</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="verification_code_subtext">"Please type the verification code  "</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="validate">Validate</string>
+    <string name="showpass">Show Password</string>
+
+    <string name="register">Register Form</string>
+    <string name="logintxt">Already Registered ?  | LOGIN</string>
+    <string name="bn_register">Register</string>
+    <string name="txt_password"> Password</string>
+    <string name="txt_uname">Aadhar Card Number</string>
+    <string name="txt_pho"> Mobile Number </string>
+    <string name="txt_veh"> Vehicle Number</string>
+    <string name="txt_address"> Hospital Name</string>
+    <string name="txt_name"> Name</string>
+
+
+    <string name="txt_register">New User | Register Now</string>
+    <string name="lo">Login</string>
+    <string name="password">Forgot Password?</string>
+    <string name="pass"> Password</string>
+    <string name="uname">User Name</string>
+    <string name="login"> LOGIN FORM</string>
+
+    <string name="review" translatable="false">Review</string>
+
+    <string name="lang">Choose Language</string>
+    <string name="hi">हिंदी</string>
+    <string name="mr">मराठी</string>
+    <string name="en">English</string>
+    <string name="sub">Submit</string>
+    <string name="selectuser">Select User Type</string>
+    <string name="invalid">Invaild Data</string>
+    <string name="doc">Doctor</string>
+    <string name="driver">Driver</string>
+    <string name="alertuser">PLEASE SELECT USER TYPE!</string>
+    <string name="emergen">Emergency</string>
+    <string name="profile">Profile</string>
+
+    <string name="logout">Logout</string>
+    <string name="enternewpass">Enter New Password</string>
+    <string name="lenofpass">Length of the password should be atleast 8 Characters</string>
+    <string name="next">NEXT</string>
+    <string name="searchhosp">     Search for  Hospital</string>
+    <string name="namepatient">Enter the Patient Name</string>
+    <string name="agepatient">Enter the Patient Age</string>
+    <string name="conpatient">Enter the Emergency Condition </string>
+    <string name="pressback">Press Back again to exit</string>
+    <string name="field">Field cannot be empty</string>
+    <string name="invaildmobile">Not Valid Number</string>
+    <string name="permission">Permission needed</string>
+    <string name="perdetail">This permission is needed because to keep the app updated</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="wait">Please Wait</string>
+    <string name="faillog">Login Failed !</string>
+    <string name="invalidlo">Invalid Mobile Number or Password</string>
+    <string name="noti">Notification</string>
+    <string name="error">ERROR</string>
+    <string name="success">SUCCESS</string>
+    <string name="resetpas">Password Reset Successfully</string>
+    <string name="faresetpa">Password Reset Failed !</string>
+    <string name="enterpho">Enter your mobile number</string>
+    <string name="verphone">Tap Next to verify your account with your phone number. You do not need to manually enter verification code if the number install in this phone...</string>
+    <string name="sendotp">Sending OTP..</string>
+    <string name="failotp">Sending OTP Failed !</string>
+
+    <string name="failnotifi">sending notification failed please try again		</string>
+
+    <string name="monitor">Monitoring Emergency</string>
+    <string name="monitordes">Live tracking of active emergency case</string>
+    <string name="notifi">Get Notified</string>
+    <string name="notifides">Real time notification and alert generation</string>
+    <string name="google">Powered by Google Directions API	</string>
+    <string name="googledes">Get there faster with smarter routes</string>
+
+
+        <string-array name="heading">
+            <item>@string/monitor</item>
+            <item>@string/notifi</item>
+            <item>@string/google</item>
+        </string-array>
+    <string-array name="desc">
+        <item>@string/monitordes</item>
+        <item>@string/notifides</item>
+        <item>@string/googledes</item>
+    </string-array>
+
+
+    <string-array name="User">
+        <item>@string/selectuser</item>
+        <item>@string/doc</item>
+        <item>@string/driver</item>
+    </string-array>
+
+</resources>
