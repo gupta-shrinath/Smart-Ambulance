@@ -7,7 +7,7 @@
 <li>The doctor will also have a android application which will provide notification of the patient arriving at the hospital and will enable the doctor to review the emergency cases at the end of the day</li>
 <li>The Hospital will have a login to the website in which they will add the respective drivers and doctors and monitoring of the vehicle on track</li>
 <li>The Traffic Department will have a login to website in which they can see the docotor and driver and main objective of the department will be monitoring the vehicle on track and provide them assistance through their system</li>
-<li>The Admin login will also be there with the ability to add,remove,edit credentials of users and tracking ability<li>
+<li>The Admin login will also be there with the ability to add,remove,edit credentials of users and tracking ability</li>
 </ul>
 <h2>Technical Info</h2>
 <ul>
