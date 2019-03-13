@@ -11,15 +11,16 @@
 </ul>
 <h2>Technical Info</h2>
 <ul>
-<li></li>
-<li>Database used is MySQl</li>
+<li>Android application is written in java and Web application is build using Bootstrap framework </li>
+<li>Database used is MySQL</li>
+<li>PHP is used for server side</li>
 </ul>
 <h2>Screenshots</h2>
 <h2>Dependencies</h2>
 <ul>
   <li>Support: AppCompat, Design</li>
-  <li>Database:Firebase</li>
-  <li>Glide</li>
+  <li>Database:MySQL</li>
+  <li></li>
 </ul>
 <h2>Inside Story</h2>
 <ul>
@@ -27,7 +28,8 @@
 <li>The application was developed by Danyl Fernandez & Shrinath Gupta and icons were designed by Prathamesh Shirke</li>
 </ul>
 <h2>Contributer</h2>
-Danyl Fernandez @gitryder<br>
 Shrinath Gupta<br>
-Prathamesh Shirke<br>
+Ayush Sawant<br>
+Marzook Khatri<br>
+Rupesh Vanneldas<br>
 <h2>Download</h2>
