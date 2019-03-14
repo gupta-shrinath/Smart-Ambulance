@@ -28,6 +28,7 @@
 <li>The application was developed by Danyl Fernandez & Shrinath Gupta and icons were designed by Prathamesh Shirke</li>
 </ul>
 <h2>Contributer</h2>
+Prasad Koyande<br>
 Shrinath Gupta<br>
 Ayush Sawant<br>
 Marzook Khatri<br>
