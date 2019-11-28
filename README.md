@@ -25,7 +25,7 @@
 <ul>
 <li>The project idea was given by Saurabh Tripathi DCP of Traffic Department and guided by L&T InfoTech Mahape</li>
 <li>The project was started at Vidyalankar Polytechnic as a Final Year Project</li>
-<li>The project is partially completed due to Examination</li>
+<li>The project is partially completed due to academic issues</li>
 </ul>
 <h2>Contributer</h2>
 Prasad Koyande<br>
