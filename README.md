@@ -34,4 +34,4 @@ Ayush Sawant<br>
 Marzook Khatri<br>
 Rupesh Vanneldas<br>
 Anybody interested can contribute to the idea or the project by contacting the devs from https://www.smartambulance.ga/developer.html 
-<h2>Download</h2>
+
